@@ -1,0 +1,25 @@
+{
+  "name": "@superset-ui/plugin-chart-ai-assistant",
+  "version": "0.1.0",
+  "description": "Superset Plugin - AI Assistant",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "peerDependencies": {
+    "@superset-ui/core": "*",
+    "@superset-ui/chart-controls": "*",
+    "react": "^16.13.1 || ^17.0.0",
+    "react-dom": "^16.13.1 || ^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "typescript": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
